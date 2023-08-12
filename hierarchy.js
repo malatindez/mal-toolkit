@@ -37,7 +37,7 @@ var hierarchy =
     [ "mal_toolkit::return_type< R(C::*)(Args...) volatile >", "d6/d1d/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4.html", null ],
     [ "mal_toolkit::return_type< R(C::*)(Args...)>", "d2/d15/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4.html", null ],
     [ "std::span< T >", null, [
-      [ "mal_toolkit::ByteView", "d8/dab/structmal__toolkit_1_1_byte_view.html", null ]
+      [ "node_system::ByteView", "d8/d4d/structnode__system_1_1_byte_view.html", null ]
     ] ],
     [ "mal_toolkit::Timer< clock >", "db/d8f/classmal__toolkit_1_1_timer.html", null ],
     [ "mal_toolkit::parameter_pack_info< Args >::type_at< index >", "d4/d1c/structmal__toolkit_1_1parameter__pack__info_1_1type__at.html", null ],
@@ -45,6 +45,6 @@ var hierarchy =
     [ "mal_toolkit::uuid::UUID", "d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html", null ],
     [ "mal_toolkit::uuid::UUIDGenerator< RNG >", "da/dbb/classmal__toolkit_1_1uuid_1_1_u_u_i_d_generator.html", null ],
     [ "std::vector< T >", null, [
-      [ "mal_toolkit::ByteArray", "d8/d99/structmal__toolkit_1_1_byte_array.html", null ]
+      [ "node_system::ByteArray", "d0/d71/structnode__system_1_1_byte_array.html", null ]
     ] ]
 ];
