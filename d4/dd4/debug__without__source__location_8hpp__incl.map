@@ -1,5 +1,5 @@
-<map id="mal&#45;toolkit/detail/debug_without_source_location.hpp" name="mal&#45;toolkit/detail/debug_without_source_location.hpp">
-<area shape="rect" id="node1" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="3562,5,3718,60"/>
+<map id="mal&#45;toolkit/mal&#45;toolkit/detail/debug_without_source_location.hpp" name="mal&#45;toolkit/mal&#45;toolkit/detail/debug_without_source_location.hpp">
+<area shape="rect" id="node1" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="3567,5,3713,60"/>
 <area shape="rect" id="node2" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="3595,108,3685,133"/>
 <area shape="rect" id="node3" href="$db/d6e/library-pch_8hpp.html" title="Precompiled header (PCH) file for common headers used across the library." alt="" coords="1558,189,1663,214"/>
 <area shape="rect" id="node38" href="$dd/db5/spdlog_8hpp.html" title="Provides integration with the SPDLOG library for efficient logging and debugging." alt="" coords="3489,189,3618,214"/>
