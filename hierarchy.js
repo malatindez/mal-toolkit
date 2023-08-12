@@ -3,8 +3,9 @@ var hierarchy =
     [ "mal_toolkit::CallbackSystem< F >", "dd/d83/classmal__toolkit_1_1_callback_system.html", null ],
     [ "mal_toolkit::enableable", "d0/d09/classmal__toolkit_1_1enableable.html", null ],
     [ "mal_toolkit::Measurer< clock >::Entry", "db/ddb/structmal__toolkit_1_1_measurer_1_1_entry.html", null ],
-    [ "node_system::events::Event", "d1/d2c/classnode__system_1_1events_1_1_event.html", [
-      [ "node_system::events::FilesChangedEvent", "d9/df9/classnode__system_1_1events_1_1_files_changed_event.html", null ]
+    [ "Entry", "d7/da8/struct_measurer_1_1_entry.html", null ],
+    [ "mal_toolkit::events::Event", "d5/dbd/classmal__toolkit_1_1events_1_1_event.html", [
+      [ "mal_toolkit::events::FilesChangedEvent", "d5/d6e/classmal__toolkit_1_1events_1_1_files_changed_event.html", null ]
     ] ],
     [ "mal_toolkit::FileWatcher", "dd/d41/classmal__toolkit_1_1_file_watcher.html", null ],
     [ "std::hash< mal_toolkit::uuid::UUID >", "db/d27/structstd_1_1hash_3_01mal__toolkit_1_1uuid_1_1_u_u_i_d_01_4.html", null ],
@@ -35,8 +36,15 @@ var hierarchy =
     [ "mal_toolkit::return_type< R(C::*)(Args...) volatile && >", "de/d97/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_6_6_01_4.html", null ],
     [ "mal_toolkit::return_type< R(C::*)(Args...) volatile >", "d6/d1d/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4.html", null ],
     [ "mal_toolkit::return_type< R(C::*)(Args...)>", "d2/d15/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4.html", null ],
+    [ "std::span< T >", null, [
+      [ "mal_toolkit::ByteView", "d8/dab/structmal__toolkit_1_1_byte_view.html", null ]
+    ] ],
     [ "mal_toolkit::Timer< clock >", "db/d8f/classmal__toolkit_1_1_timer.html", null ],
     [ "mal_toolkit::parameter_pack_info< Args >::type_at< index >", "d4/d1c/structmal__toolkit_1_1parameter__pack__info_1_1type__at.html", null ],
+    [ "type_at", "de/df0/structparameter__pack__info_1_1type__at.html", null ],
     [ "mal_toolkit::uuid::UUID", "d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html", null ],
-    [ "mal_toolkit::uuid::UUIDGenerator< RNG >", "da/dbb/classmal__toolkit_1_1uuid_1_1_u_u_i_d_generator.html", null ]
+    [ "mal_toolkit::uuid::UUIDGenerator< RNG >", "da/dbb/classmal__toolkit_1_1uuid_1_1_u_u_i_d_generator.html", null ],
+    [ "std::vector< T >", null, [
+      [ "mal_toolkit::ByteArray", "d8/d99/structmal__toolkit_1_1_byte_array.html", null ]
+    ] ]
 ];

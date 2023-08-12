@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Provides helper functions and extensions for the C++ Standard Library.">
 <polygon fill="#999999" stroke="#666666" points="1235,-129 1107,-129 1107,-110 1235,-110 1235,-129"/>
 <text text-anchor="middle" x="1171" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/stl&#45;helpers.hpp</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1210.5,-74 1131.5,-74 1131.5,-55 1210.5,-55 1210.5,-74"/>
 <text text-anchor="middle" x="1171" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">library&#45;pch.hpp</text>
 </a>

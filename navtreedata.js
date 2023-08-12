@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Engine", "index.html", [
+  [ "mal-toolkit", "index.html", [
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -61,8 +61,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#ab9a14e4b6bbb8837b0d25902743c7cbc",
-"dd/db7/stl-helpers_8hpp.html#a761e4a52d67f01dcecccdef9470a1c0f"
+"d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#ae1d3547e3d1aa2e3d4418698e06a6592",
+"dc/d75/win-debug_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="#999999" stroke="#666666" points="1216,-85 1126,-85 1126,-55 1216,-55 1216,-85"/>
 <text text-anchor="start" x="1134" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/library</text>
 <text text-anchor="middle" x="1171" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;pch.hpp</text>

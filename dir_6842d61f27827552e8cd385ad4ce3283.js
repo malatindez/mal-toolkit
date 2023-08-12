@@ -2,6 +2,7 @@ var dir_6842d61f27827552e8cd385ad4ce3283 =
 [
     [ "detail", "dir_4e8556b11dcd6a888e22014c6fff9901.html", "dir_4e8556b11dcd6a888e22014c6fff9901" ],
     [ "include", "dir_3c79cdb3c4e7a21ab9d59f7f73d90851.html", "dir_3c79cdb3c4e7a21ab9d59f7f73d90851" ],
+    [ "byte-helper.hpp", "da/df5/byte-helper_8hpp.html", "da/df5/byte-helper_8hpp" ],
     [ "callback-system.hpp", "d6/d29/callback-system_8hpp.html", "d6/d29/callback-system_8hpp" ],
     [ "common-structures.hpp", "d4/d80/common-structures_8hpp.html", "d4/d80/common-structures_8hpp" ],
     [ "converter.hpp", "d1/d27/converter_8hpp.html", "d1/d27/converter_8hpp" ],

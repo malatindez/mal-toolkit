@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Master header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities.">
 <polygon fill="#999999" stroke="#666666" points="1442.5,-261 1312.5,-261 1312.5,-242 1442.5,-242 1442.5,-261"/>
 <text text-anchor="middle" x="1377.5" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/mal_toolkit.hpp</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1269,-90.5 1190,-90.5 1190,-71.5 1269,-71.5 1269,-90.5"/>
 <text text-anchor="middle" x="1229.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">library&#45;pch.hpp</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node37 -->
 <g id="node37" class="node">
 <title>Node37</title>
-<g id="a_node37"><a xlink:href="../../d1/d27/converter_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node37"><a xlink:href="../../d1/d27/converter_8hpp.html" target="_top" xlink:title="Provides functions for converting between different data types.">
 <polygon fill="white" stroke="#666666" points="1534,-151 1459,-151 1459,-132 1534,-132 1534,-151"/>
 <text text-anchor="middle" x="1496.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">converter.hpp</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node38 -->
 <g id="node38" class="node">
 <title>Node38</title>
-<g id="a_node38"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node38"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks.">
 <polygon fill="white" stroke="#666666" points="1754,-151 1693,-151 1693,-132 1754,-132 1754,-151"/>
 <text text-anchor="middle" x="1723.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">debug.hpp</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node47 -->
 <g id="node47" class="node">
 <title>Node47</title>
-<g id="a_node47"><a xlink:href="../../dc/dad/file-watcher_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node47"><a xlink:href="../../dc/dad/file-watcher_8hpp.html" target="_top" xlink:title="Implements a file watcher that monitors changes to specified files or directories.">
 <polygon fill="white" stroke="#666666" points="1167.5,-206 1083.5,-206 1083.5,-187 1167.5,-187 1167.5,-206"/>
 <text text-anchor="middle" x="1125.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">file&#45;watcher.hpp</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node49 -->
 <g id="node49" class="node">
 <title>Node49</title>
-<g id="a_node49"><a xlink:href="../../d0/db4/measurer_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node49"><a xlink:href="../../d0/db4/measurer_8hpp.html" target="_top" xlink:title="Implements performance measurement and profiling utilities.">
 <polygon fill="white" stroke="#666666" points="1649,-206 1574,-206 1574,-187 1649,-187 1649,-206"/>
 <text text-anchor="middle" x="1611.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">measurer.hpp</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node50 -->
 <g id="node50" class="node">
 <title>Node50</title>
-<g id="a_node50"><a xlink:href="../../df/d05/timer_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node50"><a xlink:href="../../df/d05/timer_8hpp.html" target="_top" xlink:title="Implements timer utilities for measuring elapsed time and intervals.">
 <polygon fill="white" stroke="#666666" points="1624.5,-151 1568.5,-151 1568.5,-132 1624.5,-132 1624.5,-151"/>
 <text text-anchor="middle" x="1596.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">timer.hpp</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node51 -->
 <g id="node51" class="node">
 <title>Node51</title>
-<g id="a_node51"><a xlink:href="../../d4/da0/string_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node51"><a xlink:href="../../d4/da0/string_8hpp.html" target="_top" xlink:title="Implements string manipulation and formatting functions.">
 <polygon fill="white" stroke="#666666" points="1465,-206 1406,-206 1406,-187 1465,-187 1465,-206"/>
 <text text-anchor="middle" x="1435.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">string.hpp</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- Node52 -->
 <g id="node52" class="node">
 <title>Node52</title>
-<g id="a_node52"><a xlink:href="../../d4/d6a/template_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node52"><a xlink:href="../../d4/d6a/template_8hpp.html" target="_top" xlink:title="Defines template classes and functions used in the project.">
 <polygon fill="white" stroke="#666666" points="1555.5,-206 1483.5,-206 1483.5,-187 1555.5,-187 1555.5,-206"/>
 <text text-anchor="middle" x="1519.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">template.hpp</text>
 </a>
@@ -140,7 +140,7 @@
 <!-- Node53 -->
 <g id="node53" class="node">
 <title>Node53</title>
-<g id="a_node53"><a xlink:href="../../dd/db7/stl-helpers_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node53"><a xlink:href="../../dd/db7/stl-helpers_8hpp.html" target="_top" xlink:title="Provides helper functions and extensions for the C++ Standard Library.">
 <polygon fill="white" stroke="#666666" points="1303.5,-151 1223.5,-151 1223.5,-132 1303.5,-132 1303.5,-151"/>
 <text text-anchor="middle" x="1263.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">stl&#45;helpers.hpp</text>
 </a>
@@ -155,7 +155,7 @@
 <!-- Node54 -->
 <g id="node54" class="node">
 <title>Node54</title>
-<g id="a_node54"><a xlink:href="../../d4/dc3/macro_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node54"><a xlink:href="../../d4/dc3/macro_8hpp.html" target="_top" xlink:title="Defines macros and constants for various purposes.">
 <polygon fill="white" stroke="#666666" points="1729.5,-206 1667.5,-206 1667.5,-187 1729.5,-187 1729.5,-206"/>
 <text text-anchor="middle" x="1698.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">macro.hpp</text>
 </a>
@@ -170,7 +170,7 @@
 <!-- Node55 -->
 <g id="node55" class="node">
 <title>Node55</title>
-<g id="a_node55"><a xlink:href="../../d4/d80/common-structures_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node55"><a xlink:href="../../d4/d80/common-structures_8hpp.html" target="_top" xlink:title="Defines common data structures and types that can be used anywhere.">
 <polygon fill="white" stroke="#666666" points="1441,-151 1322,-151 1322,-132 1441,-132 1441,-151"/>
 <text text-anchor="middle" x="1381.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">common&#45;structures.hpp</text>
 </a>
@@ -707,7 +707,7 @@
 <!-- Node39 -->
 <g id="node39" class="node">
 <title>Node39</title>
-<g id="a_node39"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node39"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title="Provides integration with the SPDLOG library for efficient logging and debugging.">
 <polygon fill="white" stroke="#666666" points="2667,-90.5 2570,-90.5 2570,-71.5 2667,-71.5 2667,-90.5"/>
 <text text-anchor="middle" x="2618.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/spdlog.hpp</text>
 </a>
@@ -843,7 +843,7 @@
 <!-- Node48 -->
 <g id="node48" class="node">
 <title>Node48</title>
-<g id="a_node48"><a xlink:href="../../dc/d94/event_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node48"><a xlink:href="../../dc/d94/event_8hpp.html" target="_top" xlink:title="Defines event handling and notification mechanisms.">
 <polygon fill="white" stroke="#666666" points="1167,-151 1108,-151 1108,-132 1167,-132 1167,-151"/>
 <text text-anchor="middle" x="1137.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">event.hpp</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks.">
 <polygon fill="white" stroke="#666666" points="200,-151 91,-151 91,-132 200,-132 200,-151"/>
 <text text-anchor="middle" x="145.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/debug.hpp</text>
 </a>
@@ -42,7 +42,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d4b/debug__without__source__location_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d3/d4b/debug__without__source__location_8hpp.html" target="_top" xlink:title="Provides utility functions for debugging and assertion handling without source location information.">
 <polygon fill="white" stroke="#666666" points="117,-96 0,-96 0,-55 117,-55 117,-96"/>
 <text text-anchor="start" x="8" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/detail</text>
 <text text-anchor="start" x="8" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/debug_without_source</text>
@@ -59,7 +59,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d1/d08/mal__toolkit_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d1/d08/mal__toolkit_8hpp.html" target="_top" xlink:title="Master header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities.">
 <polygon fill="white" stroke="#666666" points="255.5,-19 125.5,-19 125.5,0 255.5,0 255.5,-19"/>
 <text text-anchor="middle" x="190.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/mal_toolkit.hpp</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d0/db4/measurer_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d0/db4/measurer_8hpp.html" target="_top" xlink:title="Implements performance measurement and profiling utilities.">
 <polygon fill="white" stroke="#666666" points="297,-85 174,-85 174,-66 297,-66 297,-85"/>
 <text text-anchor="middle" x="235.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/measurer.hpp</text>
 </a>

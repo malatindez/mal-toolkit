@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Engine: mal-toolkit/debug.hpp File Reference</title>
+<title>mal-toolkit: mal-toolkit/debug.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -35,9 +35,9 @@ window.MathJax = {
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Engine
+   <div id="projectname">mal-toolkit
    </div>
-   <div id="projectbrief">Simple DirectX11 rendering engine</div>
+   <div id="projectbrief">C++20 utility library</div>
   </td>
  </tr>
  </tbody>
@@ -105,6 +105,9 @@ $(document).ready(function(){initNavTree('da/d7b/debug_8hpp.html','../../'); ini
   <div class="headertitle"><div class="title">debug.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Contains debugging-related macros and utilities for assisting with debugging tasks.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d6e/library-pch_8hpp_source.html">library-pch.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/db5/spdlog_8hpp_source.html">include/spdlog.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d43/debug__with__source__location_8hpp_source.html">detail/debug_with_source_location.hpp</a>&quot;</code><br />
@@ -143,7 +146,11 @@ Macros</h2></td></tr>
 <tr class="memitem:a1c3dadca5b5720340d7b21a1c5c5701f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7b/debug_8hpp.html#a1c3dadca5b5720340d7b21a1c5c5701f">MAL_TOOLKIT_ASSERT_NOEXCEPT</a></td></tr>
 <tr class="separator:a1c3dadca5b5720340d7b21a1c5c5701f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Contains debugging-related macros and utilities for assisting with debugging tasks. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ada8c6d38c51edab9ab550dbc9a9d364b" name="ada8c6d38c51edab9ab550dbc9a9d364b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada8c6d38c51edab9ab550dbc9a9d364b">&#9670;&#160;</a></span>MAL_TOOLKIT_ALWAYS_ASSERT_ENABLED</h2>
 
@@ -156,7 +163,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -175,7 +182,7 @@ Macros</h2></td></tr>
 <p>Controls whether assertions should result in program abortion. </p>
 <p >If set to 1, failed assertions will lead to program abortion. If set to 0, assertions will not abort the program, and behavior will depend on MAL_TOOLKIT_ASSERT_THROWS. This option is ignored in _DEBUG mode. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -191,7 +198,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -210,7 +217,7 @@ Macros</h2></td></tr>
 <p>Indicates whether assertion logs are enabled (1) or disabled (0). </p>
 <p >If enabled, assertion logs will be generated when assertions fail. Default value is 1. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00018">18</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -226,7 +233,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00098">98</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +252,7 @@ Macros</h2></td></tr>
 <p>Controls whether assertions throw exceptions in case of failure. </p>
 <p >If set to 1, failed assertions will throw exceptions. If set to 0, assertions will not throw exceptions and will follow the behavior defined by MAL_TOOLKIT_ASSERT_ABORTS. This option is ignored if MAL_TOOLKIT_ASSERT_ABORTS is set to 1. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +268,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00095">95</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d7b/debug_8hpp_source.html#l00093">93</a> of file <a class="el" href="../../da/d7b/debug_8hpp_source.html">debug.hpp</a>.</p>
 
 </div>
 </div>

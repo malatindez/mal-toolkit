@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['template_2ehpp_0',['template.hpp',['../d4/d6a/template_8hpp.html',1,'']]],
-  ['timer_2ehpp_1',['timer.hpp',['../df/d05/timer_8hpp.html',1,'']]]
+  ['spdlog_2ehpp_0',['spdlog.hpp',['../dd/db5/spdlog_8hpp.html',1,'']]],
+  ['stl_2dhelpers_2ehpp_1',['stl-helpers.hpp',['../dd/db7/stl-helpers_8hpp.html',1,'']]],
+  ['string_2ehpp_2',['string.hpp',['../d4/da0/string_8hpp.html',1,'']]]
 ];

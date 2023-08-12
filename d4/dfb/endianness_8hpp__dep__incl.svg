@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/db4/uuid_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d7/db4/uuid_8hpp.html" target="_top" xlink:title="Defines utilities for working with Universally Unique Identifiers (UUIDs).">
 <polygon fill="white" stroke="#666666" points="101,-19 0,-19 0,0 101,0 101,-19"/>
 <text text-anchor="middle" x="50.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/uuid.hpp</text>
 </a>

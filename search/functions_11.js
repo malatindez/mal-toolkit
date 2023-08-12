@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wstring_5fto_5fstring_0',['wstring_to_string',['../df/df5/namespacemal__toolkit.html#a5acf6d61cf0e94c18b6f5f4416c22bd5',1,'mal_toolkit']]]
+  ['view_0',['view',['../d8/d99/structmal__toolkit_1_1_byte_array.html#a33b603234734c1cdddee3fb854988181',1,'mal_toolkit::ByteArray::view(size_t from=0) const'],['../d8/d99/structmal__toolkit_1_1_byte_array.html#a36dcef7b7965fa3ac6ffc4de36800b76',1,'mal_toolkit::ByteArray::view(size_t from, size_t length) const']]]
 ];

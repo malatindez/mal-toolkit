@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Implements a file watcher that monitors changes to specified files or directories.">
 <polygon fill="#999999" stroke="#666666" points="1237,-184 1105,-184 1105,-165 1237,-165 1237,-184"/>
 <text text-anchor="middle" x="1171" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/file&#45;watcher.hpp</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dc/d94/event_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../dc/d94/event_8hpp.html" target="_top" xlink:title="Defines event handling and notification mechanisms.">
 <polygon fill="white" stroke="#666666" points="1171.5,-129 1112.5,-129 1112.5,-110 1171.5,-110 1171.5,-129"/>
 <text text-anchor="middle" x="1142" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">event.hpp</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1210.5,-74 1131.5,-74 1131.5,-55 1210.5,-55 1210.5,-74"/>
 <text text-anchor="middle" x="1171" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">library&#45;pch.hpp</text>
 </a>

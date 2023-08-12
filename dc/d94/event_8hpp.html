@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Engine: mal-toolkit/event.hpp File Reference</title>
+<title>mal-toolkit: mal-toolkit/event.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -35,9 +35,9 @@ window.MathJax = {
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Engine
+   <div id="projectname">mal-toolkit
    </div>
-   <div id="projectbrief">Simple DirectX11 rendering engine</div>
+   <div id="projectbrief">C++20 utility library</div>
   </td>
  </tr>
  </tbody>
@@ -109,6 +109,9 @@ $(document).ready(function(){initNavTree('dc/d94/event_8hpp.html','../../'); ini
   <div class="headertitle"><div class="title">event.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines event handling and notification mechanisms.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d6e/library-pch_8hpp_source.html">library-pch.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for event.hpp:</div>
@@ -127,15 +130,16 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2c/classnode__system_1_1events_1_1_event.html">node_system::events::Event</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all events.  <a href="../../d1/d2c/classnode__system_1_1events_1_1_event.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dbd/classmal__toolkit_1_1events_1_1_event.html">mal_toolkit::events::Event</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for all events.  <a href="../../d5/dbd/classmal__toolkit_1_1events_1_1_event.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dd/dd7/namespacenode__system"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/namespacenode__system.html">node_system</a></td></tr>
+<tr class="memitem:df/df5/namespacemal__toolkit"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df5/namespacemal__toolkit.html">mal_toolkit</a></td></tr>
+<tr class="memdesc:df/df5/namespacemal__toolkit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains a collection of tools and utilities provided by the MAL Toolkit library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:db/d53/namespacenode__system_1_1events"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d53/namespacenode__system_1_1events.html">node_system::events</a></td></tr>
+<tr class="memitem:d9/ddf/namespacemal__toolkit_1_1events"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html">mal_toolkit::events</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -146,26 +150,30 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad302e409d84bebb9ac8a46ca405c9caa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/namespacenode__system.html#ad302e409d84bebb9ac8a46ca405c9caa">node_system::EventCallbackFn</a> = std::function&lt; void(events::Event &amp;)&gt;</td></tr>
-<tr class="memdesc:ad302e409d84bebb9ac8a46ca405c9caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the event callback function.  <a href="../../dd/dd7/namespacenode__system.html#ad302e409d84bebb9ac8a46ca405c9caa">More...</a><br /></td></tr>
-<tr class="separator:ad302e409d84bebb9ac8a46ca405c9caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f2de8577f6c0fefb51b94ac94ce05d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df5/namespacemal__toolkit.html#aa4f2de8577f6c0fefb51b94ac94ce05d">mal_toolkit::EventCallbackFn</a> = std::function&lt; void(events::Event &amp;)&gt;</td></tr>
+<tr class="memdesc:aa4f2de8577f6c0fefb51b94ac94ce05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the event callback function.  <a href="../../df/df5/namespacemal__toolkit.html#aa4f2de8577f6c0fefb51b94ac94ce05d">More...</a><br /></td></tr>
+<tr class="separator:aa4f2de8577f6c0fefb51b94ac94ce05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a544375805b9be27b89be03e335162507"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a544375805b9be27b89be03e335162507">node_system::events::EventType</a> : uint32_t { <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a544375805b9be27b89be03e335162507a6adf97f83acf6453d4a6a4b1070f3754">node_system::events::None</a> = 0
-, <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a544375805b9be27b89be03e335162507a27450cb1f8d05e7c116af4374b691444">node_system::events::FilesChanged</a> = 1
+<tr class="memitem:a15d3b78a5fe3e0001f20d61a10e27e0a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0a">mal_toolkit::events::EventType</a> : uint32_t { <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0aa6adf97f83acf6453d4a6a4b1070f3754">mal_toolkit::events::None</a> = 0
+, <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0aa27450cb1f8d05e7c116af4374b691444">mal_toolkit::events::FilesChanged</a> = 1
  }</td></tr>
-<tr class="memdesc:a544375805b9be27b89be03e335162507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing different types of events.  <a href="../../db/d53/namespacenode__system_1_1events.html#a544375805b9be27b89be03e335162507">More...</a><br /></td></tr>
-<tr class="separator:a544375805b9be27b89be03e335162507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e22d9d4e2c3cd2fee15a02b102cc5ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5ae">node_system::events::EventCategory</a> { <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aeac4d95453035816e8203fc4a2a403c150">node_system::events::None</a> = 0
-, <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aea9aec16417451a2ffdcd916f8eef2e214">node_system::events::EventCategoryApplication</a> = 1 &lt;&lt; 0
-, <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aea3711075a3cbd062dad2f4a4ff43e518f">node_system::events::EventCategoryUtils</a> = 1 &lt;&lt; 1
-, <a class="el" href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aeaf9447ac0368463175da902036b4585d1">node_system::events::EventCategoryNetwork</a> = 1 &lt;&lt; 2
+<tr class="memdesc:a15d3b78a5fe3e0001f20d61a10e27e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing different types of events.  <a href="../../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0a">More...</a><br /></td></tr>
+<tr class="separator:a15d3b78a5fe3e0001f20d61a10e27e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8526a2bbf8ec12b612c07c650b11e7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7">mal_toolkit::events::EventCategory</a> { <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a107e83b5daf64009edfdf317f6d5df15">mal_toolkit::events::None</a> = 0
+, <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a273475f5eb48c7166bd9676050f2281c">mal_toolkit::events::EventCategoryApplication</a> = 1 &lt;&lt; 0
+, <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7aca07288bc6a3e2124803e39f3ab5f564">mal_toolkit::events::EventCategoryUtils</a> = 1 &lt;&lt; 1
+, <a class="el" href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a5bae3550baf1a2806d18ff1c2fcb76b3">mal_toolkit::events::EventCategoryNetwork</a> = 1 &lt;&lt; 2
  }</td></tr>
-<tr class="memdesc:a0e22d9d4e2c3cd2fee15a02b102cc5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing different categories of events.  <a href="../../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5ae">More...</a><br /></td></tr>
-<tr class="separator:a0e22d9d4e2c3cd2fee15a02b102cc5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ace8526a2bbf8ec12b612c07c650b11e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing different categories of events.  <a href="../../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7">More...</a><br /></td></tr>
+<tr class="separator:ace8526a2bbf8ec12b612c07c650b11e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Defines event handling and notification mechanisms. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dc/d94/event_8hpp_source.html">event.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a1191b0e98331ee2b403441fe2a14b9b9" name="a1191b0e98331ee2b403441fe2a14b9b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1191b0e98331ee2b403441fe2a14b9b9">&#9670;&#160;</a></span>EVENT_CLASS_TYPE</h2>
 
@@ -193,7 +201,7 @@ Enumerations</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d94/event_8hpp_source.html#l00013">13</a> of file <a class="el" href="../../dc/d94/event_8hpp_source.html">event.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d94/event_8hpp_source.html#l00018">18</a> of file <a class="el" href="../../dc/d94/event_8hpp_source.html">event.hpp</a>.</p>
 
 </div>
 </div>

@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Implements performance measurement and profiling utilities.">
 <polygon fill="#999999" stroke="#666666" points="2825.5,-206 2702.5,-206 2702.5,-187 2825.5,-187 2825.5,-206"/>
 <text text-anchor="middle" x="2764" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/measurer.hpp</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../da/d7b/debug_8hpp.html" target="_top" xlink:title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks.">
 <polygon fill="white" stroke="#666666" points="2756.5,-151 2695.5,-151 2695.5,-132 2756.5,-132 2756.5,-151"/>
 <text text-anchor="middle" x="2726" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">debug.hpp</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node46 -->
 <g id="node46" class="node">
 <title>Node46</title>
-<g id="a_node46"><a xlink:href="../../df/d05/timer_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node46"><a xlink:href="../../df/d05/timer_8hpp.html" target="_top" xlink:title="Implements timer utilities for measuring elapsed time and intervals.">
 <polygon fill="white" stroke="#666666" points="2831,-151 2775,-151 2775,-132 2831,-132 2831,-151"/>
 <text text-anchor="middle" x="2803" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">timer.hpp</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1243.5,-90.5 1164.5,-90.5 1164.5,-71.5 1243.5,-71.5 1243.5,-90.5"/>
 <text text-anchor="middle" x="1204" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">library&#45;pch.hpp</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node38 -->
 <g id="node38" class="node">
 <title>Node38</title>
-<g id="a_node38"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node38"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title="Provides integration with the SPDLOG library for efficient logging and debugging.">
 <polygon fill="white" stroke="#666666" points="2709.5,-90.5 2612.5,-90.5 2612.5,-71.5 2709.5,-71.5 2709.5,-90.5"/>
 <text text-anchor="middle" x="2661" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/spdlog.hpp</text>
 </a>

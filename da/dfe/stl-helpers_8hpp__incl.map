@@ -1,6 +1,6 @@
 <map id="mal&#45;toolkit/stl&#45;helpers.hpp" name="mal&#45;toolkit/stl&#45;helpers.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="1481,5,1652,31"/>
-<area shape="rect" id="node2" href="$db/d6e/library-pch_8hpp.html" title=" " alt="" coords="1514,79,1619,104"/>
+<area shape="rect" id="node1" title="Provides helper functions and extensions for the C++ Standard Library." alt="" coords="1481,5,1652,31"/>
+<area shape="rect" id="node2" href="$db/d6e/library-pch_8hpp.html" title="Precompiled header (PCH) file for common headers used across the library." alt="" coords="1514,79,1619,104"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,152,80,177"/>
 <area shape="rect" id="node4" title=" " alt="" coords="104,152,155,177"/>
 <area shape="rect" id="node5" title=" " alt="" coords="179,152,247,177"/>

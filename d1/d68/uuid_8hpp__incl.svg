@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Defines utilities for working with Universally Unique Identifiers (UUIDs).">
 <polygon fill="#999999" stroke="#666666" points="1442.5,-184 1341.5,-184 1341.5,-165 1442.5,-165 1442.5,-184"/>
 <text text-anchor="middle" x="1392" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/uuid.hpp</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1214,-74 1128,-74 1128,-55 1214,-55 1214,-74"/>
 <text text-anchor="middle" x="1171" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">../library&#45;pch.hpp</text>
 </a>

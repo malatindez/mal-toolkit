@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks.">
 <polygon fill="#999999" stroke="#666666" points="2780.5,-151 2671.5,-151 2671.5,-132 2780.5,-132 2780.5,-151"/>
 <text text-anchor="middle" x="2726" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">mal&#45;toolkit/debug.hpp</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../db/d6e/library-pch_8hpp.html" target="_top" xlink:title="Precompiled header (PCH) file for common headers used across the library.">
 <polygon fill="white" stroke="#666666" points="1243.5,-90.5 1164.5,-90.5 1164.5,-71.5 1243.5,-71.5 1243.5,-90.5"/>
 <text text-anchor="middle" x="1204" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">library&#45;pch.hpp</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node37 -->
 <g id="node37" class="node">
 <title>Node37</title>
-<g id="a_node37"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_node37"><a xlink:href="../../dd/db5/spdlog_8hpp.html" target="_top" xlink:title="Provides integration with the SPDLOG library for efficient logging and debugging.">
 <polygon fill="white" stroke="#666666" points="2709.5,-90.5 2612.5,-90.5 2612.5,-71.5 2709.5,-71.5 2709.5,-90.5"/>
 <text text-anchor="middle" x="2661" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/spdlog.hpp</text>
 </a>

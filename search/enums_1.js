@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['eventcategory_0',['EventCategory',['../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5ae',1,'node_system::events']]],
-  ['eventtype_1',['EventType',['../db/d53/namespacenode__system_1_1events.html#a544375805b9be27b89be03e335162507',1,'node_system::events']]]
+  ['eventcategory_0',['EventCategory',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7',1,'mal_toolkit::events']]],
+  ['eventtype_1',['EventType',['../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0a',1,'mal_toolkit::events']]]
 ];

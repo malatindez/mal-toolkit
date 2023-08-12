@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['eventcategoryapplication_0',['EventCategoryApplication',['../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aea9aec16417451a2ffdcd916f8eef2e214',1,'node_system::events']]],
-  ['eventcategorynetwork_1',['EventCategoryNetwork',['../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aeaf9447ac0368463175da902036b4585d1',1,'node_system::events']]],
-  ['eventcategoryutils_2',['EventCategoryUtils',['../db/d53/namespacenode__system_1_1events.html#a0e22d9d4e2c3cd2fee15a02b102cc5aea3711075a3cbd062dad2f4a4ff43e518f',1,'node_system::events']]]
+  ['eventcategoryapplication_0',['EventCategoryApplication',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a273475f5eb48c7166bd9676050f2281c',1,'mal_toolkit::events']]],
+  ['eventcategorynetwork_1',['EventCategoryNetwork',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a5bae3550baf1a2806d18ff1c2fcb76b3',1,'mal_toolkit::events']]],
+  ['eventcategoryutils_2',['EventCategoryUtils',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7aca07288bc6a3e2124803e39f3ab5f564',1,'mal_toolkit::events']]]
 ];
