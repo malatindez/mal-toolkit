@@ -9,6 +9,8 @@ var annotated_dup =
         [ "UUID", "d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html", "d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d" ],
         [ "UUIDGenerator", "da/dbb/classmal__toolkit_1_1uuid_1_1_u_u_i_d_generator.html", "da/dbb/classmal__toolkit_1_1uuid_1_1_u_u_i_d_generator" ]
       ] ],
+      [ "ByteArray", "d8/d99/structmal__toolkit_1_1_byte_array.html", "d8/d99/structmal__toolkit_1_1_byte_array" ],
+      [ "ByteView", "d8/dab/structmal__toolkit_1_1_byte_view.html", "d8/dab/structmal__toolkit_1_1_byte_view" ],
       [ "CallbackSystem", "dd/d83/classmal__toolkit_1_1_callback_system.html", "dd/d83/classmal__toolkit_1_1_callback_system" ],
       [ "enableable", "d0/d09/classmal__toolkit_1_1enableable.html", "d0/d09/classmal__toolkit_1_1enableable" ],
       [ "FileWatcher", "dd/d41/classmal__toolkit_1_1_file_watcher.html", "dd/d41/classmal__toolkit_1_1_file_watcher" ],
@@ -36,10 +38,6 @@ var annotated_dup =
       [ "return_type< R(C::*)(Args...) volatile >", "d6/d1d/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4.html", "d6/d1d/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4" ],
       [ "return_type< R(C::*)(Args...)>", "d2/d15/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4.html", "d2/d15/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4" ],
       [ "Timer", "db/d8f/classmal__toolkit_1_1_timer.html", "db/d8f/classmal__toolkit_1_1_timer" ]
-    ] ],
-    [ "node_system", "dd/dd7/namespacenode__system.html", [
-      [ "ByteArray", "d0/d71/structnode__system_1_1_byte_array.html", "d0/d71/structnode__system_1_1_byte_array" ],
-      [ "ByteView", "d8/d4d/structnode__system_1_1_byte_view.html", "d8/d4d/structnode__system_1_1_byte_view" ]
     ] ],
     [ "std", "d8/dcc/namespacestd.html", [
       [ "hash< mal_toolkit::uuid::UUID >", "db/d27/structstd_1_1hash_3_01mal__toolkit_1_1uuid_1_1_u_u_i_d_01_4.html", "db/d27/structstd_1_1hash_3_01mal__toolkit_1_1uuid_1_1_u_u_i_d_01_4" ]

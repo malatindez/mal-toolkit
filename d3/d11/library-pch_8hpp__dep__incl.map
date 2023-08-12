@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Precompiled header (PCH) file for common headers used across the library." alt="" coords="669,5,789,45"/>
 <area shape="rect" id="node2" href="$da/df5/byte-helper_8hpp.html" title=" " alt="" coords="5,101,179,126"/>
 <area shape="rect" id="node3" href="$d4/d80/common-structures_8hpp.html" title="Defines common data structures and types that can be used anywhere." alt="" coords="93,189,229,229"/>
-<area shape="rect" id="node4" href="$d1/d08/mal__toolkit_8hpp.html" title="Master header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="420,284,593,309"/>
+<area shape="rect" id="node4" href="$d1/d08/mal__toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="420,284,593,309"/>
 <area shape="rect" id="node5" href="$d1/d27/converter_8hpp.html" title="Provides functions for converting between different data types." alt="" coords="305,196,469,221"/>
 <area shape="rect" id="node6" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="579,101,725,126"/>
 <area shape="rect" id="node10" href="$d1/dcf/endianness_8hpp.html" title="Provides functions and utilities for handling endianness conversions." alt="" coords="749,93,867,133"/>

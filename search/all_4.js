@@ -20,5 +20,6 @@ var searchData=
   ['eventcategoryapplication_17',['EventCategoryApplication',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a273475f5eb48c7166bd9676050f2281c',1,'mal_toolkit::events']]],
   ['eventcategorynetwork_18',['EventCategoryNetwork',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7a5bae3550baf1a2806d18ff1c2fcb76b3',1,'mal_toolkit::events']]],
   ['eventcategoryutils_19',['EventCategoryUtils',['../d9/ddf/namespacemal__toolkit_1_1events.html#ace8526a2bbf8ec12b612c07c650b11e7aca07288bc6a3e2124803e39f3ab5f564',1,'mal_toolkit::events']]],
-  ['eventtype_20',['EventType',['../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0a',1,'mal_toolkit::events']]]
+  ['events_20',['events',['../d8/dd5/namespaceevents.html',1,'']]],
+  ['eventtype_21',['EventType',['../d9/ddf/namespacemal__toolkit_1_1events.html#a15d3b78a5fe3e0001f20d61a10e27e0a',1,'mal_toolkit::events']]]
 ];

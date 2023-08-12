@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['view_0',['view',['../d0/d71/structnode__system_1_1_byte_array.html#a8d0b2021c0bff7816f272a604ccee777',1,'node_system::ByteArray::view(size_t from=0) const'],['../d0/d71/structnode__system_1_1_byte_array.html#aa5e58e356145e991cea458f52308b85c',1,'node_system::ByteArray::view(size_t from, size_t length) const']]]
+  ['view_0',['view',['../d8/d99/structmal__toolkit_1_1_byte_array.html#a33b603234734c1cdddee3fb854988181',1,'mal_toolkit::ByteArray::view(size_t from=0) const'],['../d8/d99/structmal__toolkit_1_1_byte_array.html#a36dcef7b7965fa3ac6ffc4de36800b76',1,'mal_toolkit::ByteArray::view(size_t from, size_t length) const']]]
 ];

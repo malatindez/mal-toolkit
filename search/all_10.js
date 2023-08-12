@@ -13,5 +13,5 @@ var searchData=
   ['str_10',['str',['../d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#ae74c9ad95156d0339b5c55c98c3fd616',1,'mal_toolkit::uuid::UUID::str(std::string &amp;s) const'],['../d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#a4e75c9f1f51435c35a76386a1e98b134',1,'mal_toolkit::uuid::UUID::str(char *res) const'],['../d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#ae3011a01e88028c4cc0f4c431a1816d6',1,'mal_toolkit::uuid::UUID::str() const']]],
   ['string_2ehpp_11',['string.hpp',['../d4/da0/string_8hpp.html',1,'']]],
   ['string_5fto_5fwstring_12',['string_to_wstring',['../df/df5/namespacemal__toolkit.html#a250958b7fb680f8e1eff004e92dbde01',1,'mal_toolkit']]],
-  ['subview_13',['subview',['../d8/d4d/structnode__system_1_1_byte_view.html#a2f90768e74bcbe90945a3af537f4cbe8',1,'node_system::ByteView::subview(size_t from, size_t length) const'],['../d8/d4d/structnode__system_1_1_byte_view.html#a10eb3e031594d7626e9ffb2d3d17db3e',1,'node_system::ByteView::subview(size_t from=0) const']]]
+  ['subview_13',['subview',['../d8/dab/structmal__toolkit_1_1_byte_view.html#ab21d83b363077d0b9d90ef549c22af1f',1,'mal_toolkit::ByteView::subview(size_t from, size_t length) const'],['../d8/dab/structmal__toolkit_1_1_byte_view.html#acc43e8df785d2e5b6170a664c756123d',1,'mal_toolkit::ByteView::subview(size_t from=0) const']]]
 ];
