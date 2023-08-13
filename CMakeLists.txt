@@ -10,6 +10,20 @@ file(GLOB_RECURSE MALTOOLKIT_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/mal-toolkit/*.*"
 )
 
+if(MSVC) # update filters in MSVC
+foreach(_source IN ITEMS ${MALTOOLKIT_SOURCES})
+  if(IS_ABSOLUTE "${_source}")
+    file(RELATIVE_PATH _source_rel "${CMAKE_CURRENT_SOURCE_DIR}" "${_source}")
+  else()
+    set(_source_rel "${_source}")
+  endif()
+
+  get_filename_component(_source_path "${_source_rel}" PATH)
+  string(REPLACE "/" "\\" _source_path_msvc "${_source_path}")
+  source_group("${_source_path_msvc}" FILES "${_source}")
+endforeach()
+endif()
+
 add_library(mal-toolkit ${MALTOOLKIT_SOURCES})
 
 target_include_directories(mal-toolkit PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/mal-toolkit)
