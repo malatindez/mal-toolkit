@@ -15,8 +15,7 @@ namespace mal_toolkit
     {
         std::string rv;
         rv.reserve(s.size());
-        std::ranges::for_each(s,
-                              [&rv](char const &c) { rv += static_cast<char>(std::tolower(c)); });
+        std::ranges::for_each(s, [&rv](char const &c) { rv += static_cast<char>(std::tolower(c)); });
         return rv;
     }
 
@@ -29,8 +28,7 @@ namespace mal_toolkit
     {
         std::string rv;
         rv.reserve(s.size());
-        std::ranges::for_each(s,
-                              [&rv](char const &c) { rv += static_cast<char>(std::toupper(c)); });
+        std::ranges::for_each(s, [&rv](char const &c) { rv += static_cast<char>(std::toupper(c)); });
         return rv;
     }
 
@@ -41,8 +39,7 @@ namespace mal_toolkit
      */
     constexpr std::string_view ltrimview(std::string_view const s) noexcept
     {
-        return std::string_view(
-            std::ranges::find_if(s, [](unsigned char ch) { return !std::isspace(ch); }), s.end());
+        return std::string_view(std::ranges::find_if(s, [](unsigned char ch) { return !std::isspace(ch); }), s.end());
     }
 
     /**
@@ -53,9 +50,7 @@ namespace mal_toolkit
     constexpr std::string_view rtrimview(std::string_view const s) noexcept
     {
         return std::string_view(
-            s.begin(),
-            std::find_if(s.rbegin(), s.rend(), [](unsigned char ch) { return !std::isspace(ch); })
-                .base());
+            s.begin(), std::find_if(s.rbegin(), s.rend(), [](unsigned char ch) { return !std::isspace(ch); }).base());
     }
 
     /**
@@ -63,10 +58,7 @@ namespace mal_toolkit
      * @param s The input string view.
      * @return A new string view with leading and trailing whitespace removed.
      */
-    constexpr std::string_view trimview(std::string_view const s) noexcept
-    {
-        return ltrimview(rtrimview(s));
-    }
+    constexpr std::string_view trimview(std::string_view const s) noexcept { return ltrimview(rtrimview(s)); }
 
     /**
      * @brief Trims leading whitespace from a string.
@@ -81,11 +73,10 @@ namespace mal_toolkit
      */
     inline std::string rtrim(std::string const &s) noexcept { return std::string(rtrimview(s)); }
 
-
     /**
      * @brief Trims leading and trailing whitespace from a string.
      * @param s The input string.
      * @return A new string with leading and trailing whitespace removed.
      */
     inline std::string trim(std::string const &s) noexcept { return std::string(trimview(s)); }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

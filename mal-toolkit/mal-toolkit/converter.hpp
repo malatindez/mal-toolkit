@@ -72,4 +72,4 @@ namespace mal_toolkit
         }
         return std::nullopt;
     }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

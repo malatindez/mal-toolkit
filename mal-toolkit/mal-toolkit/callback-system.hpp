@@ -14,7 +14,8 @@ namespace mal_toolkit
      * @param f The function to get the address of.
      * @return size_t The address of the function.
      */
-    template <typename T, typename... U> size_t GetFunctionAddress(std::function<T(U...)> f)
+    template <typename T, typename... U>
+    size_t GetFunctionAddress(std::function<T(U...)> f)
     {
         typedef T(FnType)(U...);
         FnType **fnPointer = f.template target<FnType *>();
@@ -29,7 +30,8 @@ namespace mal_toolkit
      * @tparam F Type of the callback function.
      */
 
-    template <typename F> class CallbackSystem
+    template <typename F>
+    class CallbackSystem
     {
     public:
         using CallbackFunction = F;
@@ -97,4 +99,4 @@ namespace mal_toolkit
         std::unordered_map<CallbackId, CallbackAddress> callback_addresses_;
         CallbackId next_id_ = 0;
     };
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

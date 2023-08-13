@@ -10,7 +10,7 @@
 namespace std
 {
     namespace format = std::experimental::format;
-} // namespace std
+}  // namespace std
 #else
 #error "Missing format library"
 #endif

@@ -31,14 +31,11 @@ LONG NTAPI VexHandler(PEXCEPTION_POINTERS ExceptionInfo)
 
                 if (ExceptionRecord->ExceptionCode == DBG_PRINTEXCEPTION_WIDE_C)
                 {
-                    if (ULONG n =
-                            WideCharToMultiByte(CP_UTF8, 0, pwz, len, nullptr, 0, nullptr, nullptr))
+                    if (ULONG n = WideCharToMultiByte(CP_UTF8, 0, pwz, len, nullptr, 0, nullptr, nullptr))
                     {
                         auto sz = (PSTR)_malloca(n * sizeof(CHAR));
 
-                        if (len =
-                                WideCharToMultiByte(CP_UTF8, 0, pwz, len, sz, n, nullptr, nullptr);
-                            len)
+                        if (len = WideCharToMultiByte(CP_UTF8, 0, pwz, len, sz, n, nullptr, nullptr); len)
                         {
                             psz = sz;
                             call_free = true;
@@ -71,5 +68,5 @@ namespace mal_toolkit::debug
         OutputDebugStringCallback = callback;
         AddVectoredExceptionHandler(TRUE, VexHandler);
     }
-} // namespace mal_toolkit::debug
+}  // namespace mal_toolkit::debug
 #endif

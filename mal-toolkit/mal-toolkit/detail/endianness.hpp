@@ -1,11 +1,13 @@
 #pragma once
-#include "../library-pch.hpp"
 #include <emmintrin.h>
 #include <immintrin.h>
 #include <smmintrin.h>
 #include <tmmintrin.h>
 
 #include <bit>
+
+#include "../library-pch.hpp"
+
 
 /**
  * @file endianness.hpp
@@ -102,10 +104,7 @@ namespace mal_toolkit::endianness
      * @brief Checks if the code was compiled with MSVC (Microsoft Visual C++).
      * @return True if the code was compiled with MSVC, false otherwise.
      */
-    constexpr bool is_compiler_msvc()
-    {
-        return (kCompilerType & uint32_t(CompilerType::kMSVC)) != 0;
-    }
+    constexpr bool is_compiler_msvc() { return (kCompilerType & uint32_t(CompilerType::kMSVC)) != 0; }
 
     /**
      * @brief Converts a 16-bit value between big-endian and little-endian.
@@ -138,8 +137,8 @@ namespace mal_toolkit::endianness
     {
         if constexpr (kIsLittleEndian)
         {
-            return ((x & 0xFF000000u) >> 24u) | ((x & 0x00FF0000u) >> 8u) |
-                   ((x & 0x0000FF00u) << 8u) | ((x & 0x000000FFu) << 24u);
+            return ((x & 0xFF000000u) >> 24u) | ((x & 0x00FF0000u) >> 8u) | ((x & 0x0000FF00u) << 8u) |
+                   ((x & 0x000000FFu) << 24u);
         }
 #if MAL_TOOLKIT_DETAIL_ENDIANNES_ICC
         return _bswap(x);
@@ -208,8 +207,8 @@ namespace mal_toolkit::endianness
         {
             return x;
         }
-        const __m256i shuffle = _mm256_set_epi64x(0x0001020304050607, 0x08090a0b0c0d0e0f,
-                                                  0x0001020304050607, 0x08090a0b0c0d0e0f);
+        const __m256i shuffle =
+            _mm256_set_epi64x(0x0001020304050607, 0x08090a0b0c0d0e0f, 0x0001020304050607, 0x08090a0b0c0d0e0f);
         return _mm256_shuffle_epi8(x, shuffle);
     }
-} // namespace mal_toolkit::endianness
+}  // namespace mal_toolkit::endianness

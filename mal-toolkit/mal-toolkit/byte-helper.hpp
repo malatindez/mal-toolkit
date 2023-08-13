@@ -7,10 +7,11 @@
 #ifdef BOOST_VERSION
 #include <boost/archive/binary_iarchive.hpp>
 #include <boost/archive/binary_oarchive.hpp>
+#include <boost/endian/conversion.hpp>
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/serialization.hpp>
 #include <boost/serialization/vector.hpp>
-#include <boost/endian/conversion.hpp>
+
 #else
 #pragma message "Boost wasn't found. Serialization for ByteArray is unavailable."
 #endif
@@ -41,7 +42,8 @@ namespace mal_toolkit
          * @tparam T The type to interpret the byte data as.
          * @return A pointer to the first element of the interpreted type.
          */
-        template <typename T> [[nodiscard]] const T *as() const
+        template <typename T>
+        [[nodiscard]] const T *as() const
         {
             return reinterpret_cast<const T *>(data());
         }
@@ -82,7 +84,7 @@ namespace mal_toolkit
      *
      * ByteArray is a wrapper around std::vector<std::byte> with additional
      * functionality for convenient manipulation of byte data.
-     * 
+     *
      * @note Provides boost serialization if boost is enabled.
      */
     struct ByteArray : public std::vector<std::byte>
@@ -100,7 +102,8 @@ namespace mal_toolkit
          * @tparam T The type to interpret the byte data as.
          * @return A pointer to the first element of the interpreted type.
          */
-        template <typename T> [[nodiscard]] constexpr T *as()
+        template <typename T>
+        [[nodiscard]] constexpr T *as()
         {
             return reinterpret_cast<T *>(data());
         }
@@ -114,7 +117,8 @@ namespace mal_toolkit
          * @tparam T The type to interpret the byte data as.
          * @return A const pointer to the first element of the interpreted type.
          */
-        template <typename T> [[nodiscard]] constexpr const T *as() const
+        template <typename T>
+        [[nodiscard]] constexpr const T *as() const
         {
             return reinterpret_cast<const T *>(data());
         }
@@ -273,7 +277,8 @@ namespace mal_toolkit
          * @param args Data sources to append to the new byte array.
          * @return A new byte array containing the appended data.
          */
-        template <typename... Args> static ByteArray from_byte_arrays(Args &&...args)
+        template <typename... Args>
+        static ByteArray from_byte_arrays(Args &&...args)
         {
             ByteArray result;
             result.append(std::forward<Args>(args)...);
@@ -296,7 +301,8 @@ namespace mal_toolkit
          * @param integer The integral value to convert to a byte array.
          * @return A new byte array containing the binary representation of the integral value.
          */
-        template <std::integral Integer> static ByteArray from_integral(const Integer integer)
+        template <std::integral Integer>
+        static ByteArray from_integral(const Integer integer)
         {
             ByteArray rv;
             rv.resize(sizeof(Integer));
@@ -354,7 +360,6 @@ namespace mal_toolkit
 #endif
     };
 
-    
     /**
      * @brief Convert a ByteView to an integer value of the specified type.
      *
@@ -370,9 +375,8 @@ namespace mal_toolkit
     [[nodiscard]] inline Integer bytes_to_integer(const ByteView byte_view)
     {
         mal_toolkit::Assert(byte_view.size() >= sizeof(Integer),
-                      "The byte array is too small to be converted to the specified integer type");
-        return boost::endian::little_to_native(
-            *reinterpret_cast<const Integer *>(byte_view.data()));
+                            "The byte array is too small to be converted to the specified integer type");
+        return boost::endian::little_to_native(*reinterpret_cast<const Integer *>(byte_view.data()));
     }
 
     /**
@@ -385,7 +389,8 @@ namespace mal_toolkit
      * @param value The integer value to convert.
      * @return A ByteArray containing the byte representation of the integer value.
      */
-    template <typename Integer> [[nodiscard]] inline ByteArray integer_to_bytes(const Integer value)
+    template <typename Integer>
+    [[nodiscard]] inline ByteArray integer_to_bytes(const Integer value)
     {
         ByteArray byte_array(sizeof(Integer));
         *byte_array.as<Integer>() = boost::endian::native_to_little(value);
@@ -414,10 +419,7 @@ namespace mal_toolkit
      * @param value The uint16_t value to convert.
      * @return A ByteArray containing the byte representation of the uint16_t value.
      */
-    [[nodiscard]] inline ByteArray uint16_to_bytes(const uint16_t value)
-    {
-        return integer_to_bytes<uint16_t>(value);
-    }
+    [[nodiscard]] inline ByteArray uint16_to_bytes(const uint16_t value) { return integer_to_bytes<uint16_t>(value); }
 
     /**
      * @brief Convert a byte array to a uint32_t value using little-endian byte order.
@@ -441,10 +443,7 @@ namespace mal_toolkit
      * @param value The uint32_t value to convert.
      * @return A ByteArray containing the byte representation of the uint32_t value.
      */
-    [[nodiscard]] inline ByteArray uint32_to_bytes(const uint32_t value)
-    {
-        return integer_to_bytes<uint32_t>(value);
-    }
+    [[nodiscard]] inline ByteArray uint32_to_bytes(const uint32_t value) { return integer_to_bytes<uint32_t>(value); }
 
     /**
      * @brief Convert a byte array to a uint64_t value using little-endian byte order.
@@ -468,10 +467,7 @@ namespace mal_toolkit
      * @param value The uint64_t value to convert.
      * @return A ByteArray containing the byte representation of the uint64_t value.
      */
-    [[nodiscard]] inline ByteArray uint64_to_bytes(const uint64_t value)
-    {
-        return integer_to_bytes<uint64_t>(value);
-    }
+    [[nodiscard]] inline ByteArray uint64_to_bytes(const uint64_t value) { return integer_to_bytes<uint64_t>(value); }
 
     /**
      * @brief Convert a byte array to an int16_t value using little-endian byte order.
@@ -495,10 +491,7 @@ namespace mal_toolkit
      * @param value The int16_t value to convert.
      * @return A ByteArray containing the byte representation of the int16_t value.
      */
-    [[nodiscard]] inline ByteArray int16_to_bytes(const int16_t value)
-    {
-        return integer_to_bytes<int16_t>(value);
-    }
+    [[nodiscard]] inline ByteArray int16_to_bytes(const int16_t value) { return integer_to_bytes<int16_t>(value); }
 
     /**
      * @brief Convert a byte array to an int32_t value using little-endian byte order.
@@ -522,10 +515,7 @@ namespace mal_toolkit
      * @param value The int32_t value to convert.
      * @return A ByteArray containing the byte representation of the int32_t value.
      */
-    [[nodiscard]] inline ByteArray int32_to_bytes(const int32_t value)
-    {
-        return integer_to_bytes<int32_t>(value);
-    }
+    [[nodiscard]] inline ByteArray int32_to_bytes(const int32_t value) { return integer_to_bytes<int32_t>(value); }
 
     /**
      * @brief Convert a byte array to an int64_t value using little-endian byte order.
@@ -549,9 +539,6 @@ namespace mal_toolkit
      * @param value The int64_t value to convert.
      * @return A ByteArray containing the byte representation of the int64_t value.
      */
-    [[nodiscard]] inline ByteArray int64_to_bytes(const int64_t value)
-    {
-        return integer_to_bytes<int64_t>(value);
-    }
+    [[nodiscard]] inline ByteArray int64_to_bytes(const int64_t value) { return integer_to_bytes<int64_t>(value); }
 
-} // namespace mal-toolkit
+}  // namespace mal_toolkit

@@ -12,7 +12,8 @@ namespace mal_toolkit
      * This class provides the ability to measure elapsed time using different clock types
      * (e.g., steady_clock, high_resolution_clock).
      */
-    template <class clock> class Timer
+    template <class clock>
+    class Timer
     {
     public:
         /**
@@ -42,13 +43,12 @@ namespace mal_toolkit
         constexpr float elapsed() noexcept
         {
             current_ = clock::now();
-            return std::chrono::duration_cast<std::chrono::duration<float>>(current_ - start_)
-                .count();
+            return std::chrono::duration_cast<std::chrono::duration<float>>(current_ - start_).count();
         }
 
     private:
-        std::chrono::time_point<clock> start_;   ///< The time point representing the start time.
-        std::chrono::time_point<clock> current_; ///< The time point representing the current time.
+        std::chrono::time_point<clock> start_;    ///< The time point representing the start time.
+        std::chrono::time_point<clock> current_;  ///< The time point representing the current time.
     };
 
     /**
@@ -61,4 +61,4 @@ namespace mal_toolkit
      */
     using HighResolutionTimer = Timer<std::chrono::high_resolution_clock>;
 
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

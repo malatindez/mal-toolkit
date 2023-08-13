@@ -36,15 +36,12 @@ namespace mal_toolkit::events
          *
          * @return A reference to the list of changed file paths.
          */
-        [[nodiscard]] inline std::vector<std::filesystem::path> const &files_changed()
-        {
-            return files_;
-        }
+        [[nodiscard]] inline std::vector<std::filesystem::path> const &files_changed() { return files_; }
         EVENT_CLASS_TYPE(FilesChanged)
     private:
         std::vector<std::filesystem::path> files_;
     };
-} // namespace mal_toolkit::events
+}  // namespace mal_toolkit::events
 namespace mal_toolkit
 {
     /**
@@ -58,8 +55,7 @@ namespace mal_toolkit
          *
          * @param event_callback The callback function to be invoked on file changes.
          */
-        explicit FileWatcher(::mal_toolkit::EventCallbackFn const &event_callback)
-            : event_callback_{ event_callback }
+        explicit FileWatcher(::mal_toolkit::EventCallbackFn const &event_callback) : event_callback_{ event_callback }
         {
         }
 
@@ -98,7 +94,7 @@ namespace mal_toolkit
         /**
          * @brief Check for file updates and trigger event callback.
          */
-        void OnUpdate()     
+        void OnUpdate()
         {
             std::vector<std::filesystem::path> paths;
             for (auto const &[file, ft] : file_map_)
@@ -125,4 +121,4 @@ namespace mal_toolkit
         std::map<std::filesystem::path, std::filesystem::file_time_type> file_map_;
         ::mal_toolkit::EventCallbackFn event_callback_;
     };
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

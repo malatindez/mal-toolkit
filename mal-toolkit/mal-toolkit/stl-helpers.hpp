@@ -12,7 +12,8 @@ namespace mal_toolkit
      * @param range The sorted vector to insert into.
      * @param value The value to insert.
      */
-    template <typename T> void SortedInsert(std::vector<T> &range, T &&value)
+    template <typename T>
+    void SortedInsert(std::vector<T> &range, T &&value)
     {
         auto lower = std::lower_bound(range.begin(), range.end(), value);
         range.emplace(lower, std::forward<T>(value));
@@ -26,8 +27,7 @@ namespace mal_toolkit
      * @param comparator A function that compares two values.
      */
     template <typename T>
-    void SortedInsert(std::vector<T> &range, T &&value,
-                      std::function<bool(T const &, T const &)> const &comparator)
+    void SortedInsert(std::vector<T> &range, T &&value, std::function<bool(T const &, T const &)> const &comparator)
     {
         auto lower = std::lower_bound(range.begin(), range.end(), value, comparator);
         range.emplace(lower, std::forward<T>(value));
@@ -38,7 +38,8 @@ namespace mal_toolkit
      * @param range The sorted vector to erase from.
      * @param value The value to erase.
      */
-    template <typename T> void SortedErase(std::vector<T> &range, T &&value)
+    template <typename T>
+    void SortedErase(std::vector<T> &range, T &&value)
     {
         auto t = std::equal_range(range.begin(), range.end(), value);
         range.erase(t.first, t.second);
@@ -52,8 +53,7 @@ namespace mal_toolkit
      * @param comparator A function that compares two values.
      */
     template <typename T>
-    void SortedErase(std::vector<T> &range, T &&value,
-                     std::function<bool(T const &, T const &)> const &comparator)
+    void SortedErase(std::vector<T> &range, T &&value, std::function<bool(T const &, T const &)> const &comparator)
     {
         auto t = std::equal_range(range.begin(), range.end(), value, comparator);
         range.erase(t.first, t.second);
@@ -64,8 +64,9 @@ namespace mal_toolkit
      * @param seed The existing hash value, which will be updated.
      * @param hash The hash value to combine.
      */
-    template <typename T> void hash_combine(size_t &seed, T const &hash)
+    template <typename T>
+    void hash_combine(size_t &seed, T const &hash)
     {
         seed ^= std::hash<T>{}(hash) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
     }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

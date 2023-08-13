@@ -1,6 +1,7 @@
 #pragma once
-#include "library-pch.hpp"
 #include "include/win.hpp"
+#include "library-pch.hpp"
+
 /**
  * @file win-utils.hpp
  * @brief Provides various Windows-specific utility functions and macros.
@@ -18,8 +19,7 @@ namespace mal_toolkit
     {
         if (wstr.empty())
             return std::string();
-        int size =
-            WideCharToMultiByte(CP_UTF8, 0, wstr.data(), (int)wstr.size(), NULL, 0, NULL, NULL);
+        int size = WideCharToMultiByte(CP_UTF8, 0, wstr.data(), (int)wstr.size(), NULL, 0, NULL, NULL);
         std::string rv(size, 0);
         WideCharToMultiByte(CP_UTF8, 0, wstr.data(), (int)wstr.size(), rv.data(), size, NULL, NULL);
         return rv;
@@ -54,7 +54,7 @@ namespace mal_toolkit
     {
         if (errorMessageID == 0)
         {
-            return std::string(); // No error message has been recorded
+            return std::string();  // No error message has been recorded
         }
 
         LPSTR messageBuffer = nullptr;
@@ -62,11 +62,9 @@ namespace mal_toolkit
         // Ask Win32 to give us the string version of that message ID.
         // The parameters we pass in, tell Win32 to create the buffer that holds the message for us
         // (because we don't yet know how long the message string will be).
-        size_t size =
-            FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM |
-                               FORMAT_MESSAGE_IGNORE_INSERTS,
-                           NULL, errorMessageID, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-                           (LPSTR)&messageBuffer, 0, NULL);
+        size_t size = FormatMessageA(
+            FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, NULL,
+            errorMessageID, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPSTR)&messageBuffer, 0, NULL);
 
         // Copy the error message into a std::string.
         std::string message(messageBuffer, size);
@@ -75,4 +73,4 @@ namespace mal_toolkit
         LocalFree(messageBuffer);
         return message.substr(0, message.find_last_of("\n", std::max(0ull, message.size() - 5)));
     }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

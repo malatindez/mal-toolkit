@@ -1,6 +1,7 @@
 #pragma once
-#include "library-pch.hpp"
 #include "include/spdlog.hpp"
+#include "library-pch.hpp"
+
 
 /**
  * @file debug.hpp

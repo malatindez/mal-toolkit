@@ -100,4 +100,4 @@ namespace mal_toolkit
     private:
         bool enabled_ = true;
     };
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

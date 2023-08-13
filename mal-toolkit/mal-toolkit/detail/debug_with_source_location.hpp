@@ -15,13 +15,11 @@ namespace mal_toolkit
      * @param location The source location information (default: current location).
      * @return A string containing file name, function name, line, and column information.
      */
-    inline std::string
-    CurrentSourceLocation(std::source_location location = std::source_location::current())
+    inline std::string CurrentSourceLocation(std::source_location location = std::source_location::current())
     {
         std::stringstream ss;
         ss << "[" << location.file_name() << "] ";
-        ss << location.function_name() << "(line " << location.line() << ", column "
-           << location.column() << ") ";
+        ss << location.function_name() << "(line " << location.line() << ", column " << location.column() << ") ";
         return ss.str();
     }
     /**
@@ -81,8 +79,7 @@ namespace mal_toolkit
             }
             else
             {
-                throw std::runtime_error(CurrentSourceLocation(location) +
-                                         std::basic_string(message));
+                throw std::runtime_error(CurrentSourceLocation(location) + std::basic_string(message));
             }
         }
     }
@@ -146,9 +143,8 @@ namespace mal_toolkit
             }
             else
             {
-                throw std::runtime_error(CurrentSourceLocation(location) +
-                                         std::basic_string(message));
+                throw std::runtime_error(CurrentSourceLocation(location) + std::basic_string(message));
             }
         }
     }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit

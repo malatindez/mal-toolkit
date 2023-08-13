@@ -119,4 +119,4 @@ namespace mal_toolkit
             }
         }
     }
-} // namespace mal_toolkit
+}  // namespace mal_toolkit
