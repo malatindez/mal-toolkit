@@ -286,8 +286,8 @@ namespace mal_toolkit
          * This static function creates a new byte array containing the binary representation
          * of the provided integral value.
          *
-         * @note Input integer should take into account endianness. Check out @bytes_to_uint32 and
-         * @uint32_to_bytes functions.
+         * @note Input integer should take into account endianness. Check out @mal_toolkit::bytes_to_uint32 and
+         * @mal_toolkit::uint32_to_bytes functions.
          *
          * @note Other conversions are forbidden, because of alignment/endianness and compiler
          * features on other systems/compilers.
@@ -325,6 +325,7 @@ namespace mal_toolkit
          * starting from the specified index.
          *
          * @param from The starting index of the subview.
+         * @param length The length of the subview.
          * @return A ByteView representing the subview.
          */
         [[nodiscard]] constexpr ByteView view(size_t from, size_t length) const

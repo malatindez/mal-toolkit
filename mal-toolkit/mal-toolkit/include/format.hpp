@@ -1,7 +1,7 @@
 #pragma once
 /**
  * @file format.hpp
- * @brief checks if <format> std library exists.
+ * @brief checks if format std library exists.
  */
 #if __has_include(<format>)
 #include <format>

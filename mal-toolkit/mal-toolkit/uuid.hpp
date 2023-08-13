@@ -267,7 +267,7 @@ namespace mal_toolkit::uuid
     };
 
     /**
-     * @brief Generates UUIDv4 from a provided random generator (c++11 <random> module).
+     * @brief Generates UUIDv4 from a provided random generator (c++11 random module).
      * std::mt19937_64 is highly recommended as it has a SIMD implementation that makes it very fast
      * and it produces high quality randomness.
      */

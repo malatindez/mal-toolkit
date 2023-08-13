@@ -50,6 +50,7 @@ namespace mal_toolkit
      *
      * @param value The condition to assert.
      * @param message An optional message to include in the log and assertion.
+     * @param location The source location where the assertion occurred.
      */
     inline void Assert(bool value, std::string_view message = "Assert failed",
                        std::source_location location = std::source_location::current())
@@ -113,6 +114,7 @@ namespace mal_toolkit
      *
      * @param value The condition to assert.
      * @param message An optional message to include in the log and assertion.
+     * @param location The source location where the assertion occurred.
      */
     inline void AlwaysAssert(bool value, std::string_view message = "Assert failed",
                              std::source_location location = std::source_location::current())
