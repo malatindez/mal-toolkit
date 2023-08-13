@@ -1,8 +1,0 @@
-<map id="mal&#45;toolkit/mal&#45;toolkit/include/spdlog.hpp" name="mal&#45;toolkit/mal&#45;toolkit/include/spdlog.hpp">
-<area shape="rect" id="node1" title="Provides integration with the SPDLOG library for efficient logging and debugging." alt="" coords="203,5,349,45"/>
-<area shape="rect" id="node2" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="203,93,349,133"/>
-<area shape="rect" id="node3" href="$da/d43/debug__with__source__location_8hpp.html" title="This file provides utility functions for debugging and assertion handling." alt="" coords="5,181,179,236"/>
-<area shape="rect" id="node4" href="$d3/d4b/debug__without__source__location_8hpp.html" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="203,181,349,236"/>
-<area shape="rect" id="node5" href="$d1/d08/mal__toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="368,284,515,324"/>
-<area shape="rect" id="node6" href="$d0/db4/measurer_8hpp.html" title="Implements performance measurement and profiling utilities." alt="" coords="424,189,571,229"/>
-</map>

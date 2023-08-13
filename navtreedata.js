@@ -24,45 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "mal-toolkit", "index.html", [
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
-      ] ]
-    ] ],
-    [ "Concepts", "concepts.html", "concepts" ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
-  ] ]
+  [ "mal-toolkit", "index.html", ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d5/d96/classmal__toolkit_1_1uuid_1_1_u_u_i_d.html#ae1d3547e3d1aa2e3d4418698e06a6592",
-"dc/d0d/structmal__toolkit_1_1return__type_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01volatile_01_6_6_01_4.html#a0c22628ad365bf859dafa4c4ee8eef9b"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
