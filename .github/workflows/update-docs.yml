@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: "0 0 * * 0"  # Run every 2 weeks on Sunday at midnight UTC to refresh docs.
+    - cron: "0 0 * * 0"  # Run every week on Sunday at midnight UTC to refresh docs.
   workflow_dispatch:
 
 jobs:
@@ -20,13 +20,16 @@ jobs:
 
     - name: "Checkout" 
       uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
     
     - name: Doxygen Action
-      uses: mattnotmitt/doxygen-action@v1.9.5
+      uses: mattnotmitt/doxygen-action@edge
       with:
         doxyfile-path: "./Doxyfile"
         additional-packages: graphviz
                              biblatex
+        enable-latex: true
     
     - name: Create folder
       run: |
