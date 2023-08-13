@@ -3,7 +3,7 @@ var searchData=
   ['in_5fcategory_0',['in_category',['../d5/dbd/classmal__toolkit_1_1events_1_1_event.html#a239df9c988820c0867742a56df7ada77',1,'mal_toolkit::events::Event']]],
   ['increase_5fdelay_1',['increase_delay',['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#ad9374a1e0241fcbae8c9fa4d7c3175f8',1,'mal_toolkit::ExponentialBackoff::increase_delay()'],['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#a828b89ee778c3d16771cee978763c4cd',1,'mal_toolkit::LinearBackoff::increase_delay()']]],
   ['index_2',['index',['../d1/d3a/structmal__toolkit_1_1_measurer.html#adb052aa098fdf07d3f6a3962464828de',1,'mal_toolkit::Measurer']]],
-  ['initial_5fdelay_5f_3',['initial_delay_',['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#af8a7f7822b0a4fd6c23a8ceee1ec7efe',1,'mal_toolkit::ExponentialBackoff::initial_delay_()'],['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#a62ce035cd2fc72c1958c285daccc621d',1,'mal_toolkit::LinearBackoff::initial_delay_()']]],
+  ['initial_5fdelay_5f_3',['initial_delay_',['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#af8a7f7822b0a4fd6c23a8ceee1ec7efe',1,'mal_toolkit::ExponentialBackoff::initial_delay_'],['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#a62ce035cd2fc72c1958c285daccc621d',1,'mal_toolkit::LinearBackoff::initial_delay_']]],
   ['int16_5fto_5fbytes_4',['int16_to_bytes',['../df/df5/namespacemal__toolkit.html#abda37d17785bb6e4dc2a53e129e1c8d1',1,'mal_toolkit']]],
   ['int32_5fto_5fbytes_5',['int32_to_bytes',['../df/df5/namespacemal__toolkit.html#a78ae30a96ee1d217316d913d6a866288',1,'mal_toolkit']]],
   ['int64_5fto_5fbytes_6',['int64_to_bytes',['../df/df5/namespacemal__toolkit.html#a8789d7fd41b500c31062620a36b064f8',1,'mal_toolkit']]],

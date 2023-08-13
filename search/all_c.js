@@ -23,7 +23,7 @@ var searchData=
   ['mal_5ftoolkit_5fdetail_5fendiannes_5fmsvc_20',['MAL_TOOLKIT_DETAIL_ENDIANNES_MSVC',['../d1/dcf/endianness_8hpp.html#a32eb7b0cbaf8e20a0348e7601510d7bf',1,'endianness.hpp']]],
   ['mal_5ftoolkit_5fforce_5fassert_21',['MAL_TOOLKIT_FORCE_ASSERT',['../da/d7b/debug_8hpp.html#a0ef79974cc5ed641797748bf8a4a7fe5',1,'debug.hpp']]],
   ['mal_5ftoolkit_5fno_5fsource_5flocation_22',['MAL_TOOLKIT_NO_SOURCE_LOCATION',['../db/d6e/library-pch_8hpp.html#ad7fed444895f95908cf04942b82abd46',1,'library-pch.hpp']]],
-  ['max_5fdelay_5f_23',['max_delay_',['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#aa606e67a38908a0975403ea3b4f18ab6',1,'mal_toolkit::LinearBackoff::max_delay_()'],['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#a71e105d0cdf947d433bfc0e4bb7f1b7b',1,'mal_toolkit::ExponentialBackoff::max_delay_()']]],
+  ['max_5fdelay_5f_23',['max_delay_',['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#aa606e67a38908a0975403ea3b4f18ab6',1,'mal_toolkit::LinearBackoff::max_delay_'],['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#a71e105d0cdf947d433bfc0e4bb7f1b7b',1,'mal_toolkit::ExponentialBackoff::max_delay_']]],
   ['maximum_5fentries_24',['maximum_entries',['../d1/d3a/structmal__toolkit_1_1_measurer.html#abd76064808f063794e022a5aa01d9176',1,'mal_toolkit::Measurer']]],
   ['measure_25',['measure',['../d1/d3a/structmal__toolkit_1_1_measurer.html#a7974eb2fd010cc78ac37b61a73a08660',1,'mal_toolkit::Measurer']]],
   ['measurer_26',['Measurer',['../d1/d3a/structmal__toolkit_1_1_measurer.html',1,'mal_toolkit::Measurer&lt; clock &gt;'],['../d1/d3a/structmal__toolkit_1_1_measurer.html#a75ea1122ef872b467e5113888c1e5305',1,'mal_toolkit::Measurer::Measurer()']]],

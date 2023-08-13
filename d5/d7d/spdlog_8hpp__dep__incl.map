@@ -1,8 +1,15 @@
 <map id="mal&#45;toolkit/mal&#45;toolkit/include/spdlog.hpp" name="mal&#45;toolkit/mal&#45;toolkit/include/spdlog.hpp">
-<area shape="rect" id="node1" title="Provides integration with the SPDLOG library for efficient logging and debugging." alt="" coords="203,5,349,45"/>
-<area shape="rect" id="node2" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="203,93,349,133"/>
-<area shape="rect" id="node3" href="$da/d43/debug__with__source__location_8hpp.html" title="This file provides utility functions for debugging and assertion handling." alt="" coords="5,181,179,236"/>
-<area shape="rect" id="node4" href="$d3/d4b/debug__without__source__location_8hpp.html" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="203,181,349,236"/>
-<area shape="rect" id="node5" href="$d1/d8a/mal-toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="368,284,515,324"/>
-<area shape="rect" id="node6" href="$d0/db4/measurer_8hpp.html" title="Implements performance measurement and profiling utilities." alt="" coords="424,189,571,229"/>
+<area shape="rect" id="Node000001" title="Provides integration with the SPDLOG library for efficient logging and debugging." alt="" coords="192,5,331,46"/>
+<area shape="rect" id="Node000002" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="192,94,331,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,61,264,94,259,94,259,61"/>
+<area shape="rect" id="Node000003" href="$da/d43/debug__with__source__location_8hpp.html" title="This file provides utility functions for debugging and assertion handling." alt="" coords="5,183,168,238"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,144,130,184,127,180,203,139"/>
+<area shape="rect" id="Node000004" href="$d3/d4b/debug__without__source__location_8hpp.html" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="192,183,331,238"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="264,150,264,182,259,182,259,150"/>
+<area shape="rect" id="Node000005" href="$d1/d8a/mal-toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="352,286,491,327"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="302,142,344,181,385,236,413,284,409,287,380,239,341,184,299,146"/>
+<area shape="rect" id="Node000006" href="$d0/db4/measurer_8hpp.html" title="Implements performance measurement and profiling utilities." alt="" coords="405,190,544,231"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="320,139,431,187,429,192,318,144"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="157,173,231,133,233,138,159,178"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="459,245,435,287,430,285,454,243"/>
 </map>

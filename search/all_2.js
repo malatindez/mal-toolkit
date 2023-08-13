@@ -17,6 +17,6 @@ var searchData=
   ['constexpr_5ffor_14',['constexpr_for',['../df/df5/namespacemal__toolkit.html#a4d9fe515b4cf334c6984d4725fa21e50',1,'mal_toolkit']]],
   ['converter_2ehpp_15',['converter.hpp',['../d1/d27/converter_8hpp.html',1,'']]],
   ['current_5f_16',['current_',['../db/d8f/classmal__toolkit_1_1_timer.html#aaa7c17e61b66e09eff2a9573a81fc289',1,'mal_toolkit::Timer']]],
-  ['current_5fdelay_5f_17',['current_delay_',['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#a638ef36e78098aa8d7f53810cc877b65',1,'mal_toolkit::LinearBackoff::current_delay_()'],['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#af3b554b21402458d2fe70da34b4c9b5b',1,'mal_toolkit::ExponentialBackoff::current_delay_()']]],
+  ['current_5fdelay_5f_17',['current_delay_',['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html#a638ef36e78098aa8d7f53810cc877b65',1,'mal_toolkit::LinearBackoff::current_delay_'],['../d1/da7/classmal__toolkit_1_1_exponential_backoff.html#af3b554b21402458d2fe70da34b4c9b5b',1,'mal_toolkit::ExponentialBackoff::current_delay_']]],
   ['currentsourcelocation_18',['CurrentSourceLocation',['../df/df5/namespacemal__toolkit.html#a2f8178fa182139d89e522d558e12a6c3',1,'mal_toolkit::CurrentSourceLocation(std::source_location location=std::source_location::current())'],['../df/df5/namespacemal__toolkit.html#a27bf9441da264c7f90650042e9e30f40',1,'mal_toolkit::CurrentSourceLocation()']]]
 ];

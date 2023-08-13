@@ -1,0 +1,11 @@
+<map id="mal_toolkit::CurrentSourceLocation" name="mal_toolkit::CurrentSourceLocation">
+<area shape="rect" id="Node000001" title="Returns an empty string representing the current source location." alt="" coords="376,63,540,103"/>
+<area shape="rect" id="Node000002" href="$d1/d3a/structmal__toolkit_1_1_measurer.html#a75ea1122ef872b467e5113888c1e5305" title="Construct a Measurer object." alt="" coords="179,5,317,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,61,317,47,318,42,368,56"/>
+<area shape="rect" id="Node000003" href="$df/df5/namespacemal__toolkit.html#a8405b24c94e717d8a57da64b1483a4a9" title="Always asserts a condition with customizable behavior." alt="" coords="168,70,328,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="361,86,328,86,328,80,361,80"/>
+<area shape="rect" id="Node000004" href="$df/df5/namespacemal__toolkit.html#a1a10dbab8f9e26361eaa4af07f31713d" title="Asserts a condition with customizable behavior based on debug mode." alt="" coords="187,120,309,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="362,108,306,122,305,116,361,103"/>
+<area shape="rect" id="Node000005" href="$df/df5/namespacemal__toolkit.html#a6dd69b1a3c078b983b60645afa17b00c" title="Convert a ByteView to an integer value of the specified type." alt="" coords="5,112,120,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="172,135,120,135,120,130,172,130"/>
+</map>
