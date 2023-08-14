@@ -52,6 +52,18 @@ namespace mal_toolkit
         }
 
         /**
+         * @brief Get the current backoff delay as a double.
+         *
+         * @return The current backoff delay with applied jitter.
+         */
+        constexpr double get_current_delay_double() noexcept
+        {
+            double jitter = current_delay_ * jitter_factor_ * uniform_dist_(rng_);
+            using seconds_double = std::chrono::duration<double, std::chrono::seconds::period>;
+            return std::chrono::duration_cast<seconds_double>(current_delay_).count() + jitter;
+        }
+
+        /**
          * @brief Increase the backoff delay using exponential factor.
          */
         constexpr void increase_delay() noexcept
@@ -116,6 +128,17 @@ namespace mal_toolkit
          * @return The current backoff delay.
          */
         constexpr ChronoType get_current_delay() const noexcept { return current_delay_; }
+
+        /**
+         * @brief Get the current backoff delay as a double.
+         *
+         * @return The current backoff delay with applied jitter.
+         */
+        template <typename ChronoType>
+        constexpr double get_current_delay_double() const noexcept {
+            using seconds_double = std::chrono::duration<double, std::chrono::seconds::period>;
+            return std::chrono::duration_cast<seconds_double>(current_delay_).count();
+        }
 
         /**
          * @brief Increase the backoff delay using the specified step.
