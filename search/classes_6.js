@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['measurer_0',['Measurer',['../d1/d3a/structmal__toolkit_1_1_measurer.html',1,'mal_toolkit']]]
+  ['linearbackoff_0',['LinearBackoff',['../d0/dbc/classmal__toolkit_1_1_linear_backoff.html',1,'mal_toolkit']]]
 ];
