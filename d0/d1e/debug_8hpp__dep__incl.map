@@ -1,13 +1,13 @@
 <map id="mal&#45;toolkit/mal&#45;toolkit/debug.hpp" name="mal&#45;toolkit/mal&#45;toolkit/debug.hpp">
 <area shape="rect" id="Node000001" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="192,5,331,46"/>
 <area shape="rect" id="Node000002" href="$da/d43/debug__with__source__location_8hpp.html" title="This file provides utility functions for debugging and assertion handling." alt="" coords="5,94,168,150"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,55,130,96,127,91,203,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,56,130,96,127,91,202,51"/>
 <area shape="rect" id="Node000003" href="$d3/d4b/debug__without__source__location_8hpp.html" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="192,94,331,150"/>
 <area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="264,61,264,93,259,93,259,61"/>
 <area shape="rect" id="Node000004" href="$d1/d8a/mal-toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="352,198,491,238"/>
-<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="302,53,344,92,385,147,413,196,409,198,380,150,341,96,299,57"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="303,54,344,92,385,147,413,196,409,198,380,150,341,96,299,58"/>
 <area shape="rect" id="Node000005" href="$d0/db4/measurer_8hpp.html" title="Implements performance measurement and profiling utilities." alt="" coords="405,102,544,142"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="320,50,431,98,429,103,318,55"/>
-<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="157,84,231,44,233,49,159,89"/>
-<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="459,157,435,199,430,196,454,154"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="321,50,431,98,429,103,319,55"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="158,84,231,44,233,49,160,89"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="458,157,435,199,430,196,454,154"/>
 </map>

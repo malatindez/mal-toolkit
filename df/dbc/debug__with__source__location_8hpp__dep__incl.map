@@ -1,13 +1,13 @@
 <map id="mal&#45;toolkit/mal&#45;toolkit/detail/debug_with_source_location.hpp" name="mal&#45;toolkit/mal&#45;toolkit/detail/debug_with_source_location.hpp">
 <area shape="rect" id="Node000001" title="This file provides utility functions for debugging and assertion handling." alt="" coords="101,5,263,61"/>
 <area shape="rect" id="Node000002" href="$da/d7b/debug_8hpp.html" title="Contains debugging&#45;related macros and utilities for assisting with debugging tasks." alt="" coords="112,109,251,150"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,76,177,109,172,109,170,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,77,177,109,172,109,170,77"/>
 <area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="188,94,187,62,193,62,193,94"/>
 <area shape="rect" id="Node000003" href="$d3/d4b/debug__without__source__location_8hpp.html" title="Provides utility functions for debugging and assertion handling without source location information." alt="" coords="5,198,145,253"/>
 <area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="150,162,108,199,104,195,147,158"/>
 <area shape="rect" id="Node000004" href="$d1/d8a/mal-toolkit_8hpp.html" title="Main header file for the MAL Toolkit library, providing a comprehensive set of tools and utilities." alt="" coords="165,301,305,342"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="189,164,210,253,228,300,223,302,204,254,184,165"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="190,164,210,253,228,300,223,302,204,254,184,165"/>
 <area shape="rect" id="Node000005" href="$d0/db4/measurer_8hpp.html" title="Implements performance measurement and profiling utilities." alt="" coords="219,205,358,246"/>
 <area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="217,158,268,203,265,207,213,162"/>
-<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="272,260,248,302,244,300,268,258"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="272,261,248,302,244,300,268,258"/>
 </map>
