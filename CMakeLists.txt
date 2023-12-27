@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
-
 project(mal-toolkit LANGUAGES CXX)
+cmake_policy(SET CMP0060 NEW)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -24,7 +24,7 @@ foreach(_source IN ITEMS ${MALTOOLKIT_SOURCES})
 endforeach()
 endif()
 
-add_library(mal-toolkit ${MALTOOLKIT_SOURCES})
+add_library(mal-toolkit STATIC ${MALTOOLKIT_SOURCES})
 
 target_include_directories(mal-toolkit PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/mal-toolkit)
 

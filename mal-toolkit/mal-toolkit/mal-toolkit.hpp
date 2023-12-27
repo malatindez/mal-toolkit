@@ -37,7 +37,6 @@ namespace mal_toolkit
 #include "converter.hpp"
 #include "backoffs.hpp"
 #include "debug.hpp"
-#include "file-watcher.hpp"
 #include "measurer.hpp"
 #include "string.hpp"
 #include "template.hpp"
