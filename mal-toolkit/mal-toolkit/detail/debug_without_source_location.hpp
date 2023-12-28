@@ -45,7 +45,7 @@ namespace mal_toolkit
      */
     inline void Assert(bool value, std::string_view message = "Assert failed")
     {
-        if constexpr (!MAL_TOOLKIT_DEBUG_ENABLED)
+        if constexpr (!MAL_TOOLKIT_ASSERT_ENABLED)
         {
             return;
         }
@@ -103,7 +103,7 @@ namespace mal_toolkit
             spdlog::critical(std::basic_string(message));
         }
 
-        if constexpr (MAL_TOOLKIT_DEBUG_ENABLED)
+        if constexpr (MAL_TOOLKIT_ASSERT_ENABLED)
         {
             assert(value);
         }

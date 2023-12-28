@@ -50,7 +50,7 @@
 #endif
 
 #ifndef MAL_TOOLKIT_NO_SOURCE_LOCATION
-#if !defined(__clang__) && __has_include(<source_location>)
+#if __has_include(<source_location>)
 #include <source_location>
 #elif __has_include(<experimental/source_location>)
 #include <experimental/source_location>

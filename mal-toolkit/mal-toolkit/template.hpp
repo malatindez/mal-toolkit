@@ -39,7 +39,7 @@ namespace mal_toolkit
          * @return The index of type `T` if found, otherwise `std::numeric_limits<std::size_t>::max()`.
          */
         template <typename T>
-        consteval size_t index_of_helper(std::size_t index)
+        consteval size_t index_of_helper(std::size_t)
         {
             return std::numeric_limits<std::size_t>::max();
         }
@@ -188,7 +188,7 @@ namespace mal_toolkit
      * @return The index of the first occurrence of type `T` in the function's argument list.
      */
     template <typename T, typename Func>
-    consteval std::size_t index_of_function_arg(Func const &func = {})
+    consteval std::size_t index_of_function_arg([[maybe_unused]] Func const &func = {})
     {
         return _template_detail::index_of_function_arg<Func>::template index_of_type<T>();
     }

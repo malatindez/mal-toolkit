@@ -145,7 +145,7 @@ namespace mal_toolkit
          * @param args Additional data sources.
          */
         template <typename First, typename Second, typename... Args>
-        void append(First &&first, typename Second &&second, Args &&...args)
+        void append(First &&first, Second &&second, Args &&...args)
         {
             append(std::forward<First>(first));
             append(std::forward<Second>(second));
@@ -163,7 +163,7 @@ namespace mal_toolkit
          * @param second The second data source.
          */
         template <typename First, typename Second>
-        void append(First &&first, typename Second &&second)
+        void append(First &&first, Second &&second)
         {
             append(std::forward<First>(first));
             append(std::forward<Second>(second));

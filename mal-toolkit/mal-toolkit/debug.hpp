@@ -2,7 +2,6 @@
 #include "include/spdlog.hpp"
 #include "library-pch.hpp"
 
-
 /**
  * @file debug.hpp
  * @brief Contains debugging-related macros and utilities for assisting with debugging tasks.
@@ -101,7 +100,7 @@
 #define MAL_TOOLKIT_ASSERT_NOEXCEPT noexcept
 #endif
 
-#ifdef ENGINE_NO_SOURCE_LOCATION
+#ifdef MAL_TOOLKIT_NO_SOURCE_LOCATION
 #include "detail/debug_without_source_location.hpp"
 #else
 #include "detail/debug_with_source_location.hpp"

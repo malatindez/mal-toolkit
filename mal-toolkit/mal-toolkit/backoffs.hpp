@@ -134,7 +134,6 @@ namespace mal_toolkit
          *
          * @return The current backoff delay with applied jitter.
          */
-        template <typename ChronoType>
         constexpr double get_current_delay_double() const noexcept {
             using seconds_double = std::chrono::duration<double, std::chrono::seconds::period>;
             return std::chrono::duration_cast<seconds_double>(current_delay_).count();

@@ -13,7 +13,12 @@
  * @brief Provides integration with the SPDLOG library for efficient logging and debugging.
  */
 #if defined(__clang__)
-// TODO
+#ifndef _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
+#define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
+#define MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING 0
+#else
+#define MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING 1
+#endif
 #elif defined(__GNUC__) || defined(__GNUG__)
 // TODO
 #elif defined(_MSC_VER)
@@ -37,6 +42,11 @@
 #include <spdlog/spdlog.h>
 #if defined(__clang__)
 // TODO
+#if !MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
+#undef _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
+#endif
+#undef MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
+
 #elif defined(__GNUC__) || defined(__GNUG__)
 // TODO
 #elif defined(_MSC_VER)
