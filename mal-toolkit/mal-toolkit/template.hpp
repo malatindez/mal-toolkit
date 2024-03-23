@@ -201,6 +201,19 @@ namespace mal_toolkit
     template <auto begin, auto end, auto inc, class F>
     constexpr void constexpr_for(F &&f)
     {
+        f(std::integral_constant<decltype(begin), begin>{});
+        if constexpr (begin + inc >= end)
+        {
+            return;
+        }
+        else  // else should be constexpr as well
+        {
+            constexpr_for<begin + inc, end, inc>(std::forward<F>(f));
+        }
+    }
+    template <auto begin, auto end, auto inc, class F>
+    constexpr void constexpr_for_break(F &&f)
+    {
         if (not f(std::integral_constant<decltype(begin), begin>{}))
         {
             return;
