@@ -13,8 +13,8 @@
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
-#include <SDKDDKVer.h>
-#include <windows.h>
+#include <sdkddkver.h>
+#include <Windows.h>
 
 #include "win-undef.hpp"
 

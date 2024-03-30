@@ -36,7 +36,7 @@ namespace mal_toolkit
 #ifndef ENGINE_NO_SOURCE_LOCATION
         Measurer(std::string_view s = "Measurer", bool log_automatically = true, float time_to_flush = 30,
                  std::source_location location = std::source_location::current())
-            : log_automatically(log_automatically), time_to_flush(time_to_flush)
+            : time_to_flush(time_to_flush), log_automatically(log_automatically)
         {
             output = CurrentSourceLocation(location) + std::basic_string(s) + " ";
         }

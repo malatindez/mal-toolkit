@@ -40,13 +40,14 @@
 #include <variant>
 #include <vector>
 
-
+#ifndef __mal_toolkit_lambda_force_inline
 #ifdef __clang__
-#define __lambda_force_inline __attribute__((always_inline))
+#define __mal_toolkit_lambda_force_inline __attribute__((always_inline))
 #elif defined(__GNUC__)
-#define __lambda_force_inline __attribute__((always_inline))
+#define __mal_toolkit_lambda_force_inline  __attribute__((always_inline))
 #elif _MSC_VER
-#define __lambda_force_inline [[msvc::forceinline]]
+#define __mal_toolkit_lambda_force_inline  [[msvc::forceinline]]
+#endif
 #endif
 
 #ifndef MAL_TOOLKIT_NO_SOURCE_LOCATION

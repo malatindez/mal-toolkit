@@ -16,6 +16,8 @@
 #ifndef _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
 #define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
 #define MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING 0
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 #else
 #define MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING 1
 #endif
@@ -27,6 +29,7 @@
 #pragma warning(disable : 4189)
 #pragma warning(disable : 4245)
 #pragma warning(disable : 4616)
+#pragma warning(disable : 4996)
 #pragma warning(disable : 6285)
 #pragma warning(disable : 6385)
 #pragma warning(disable : 26437)
@@ -47,6 +50,7 @@
 #endif
 #undef MAL_TOOLKIT_KEEP_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING
 
+#pragma clang diagnostic pop
 #elif defined(__GNUC__) || defined(__GNUG__)
 // TODO
 #elif defined(_MSC_VER)
