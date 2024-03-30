@@ -8,11 +8,6 @@ namespace mal_toolkit
 {
     namespace _template_detail
     {
-        template <>
-        constexpr size_t CalculateSize()
-        {
-            return 0;
-        }
         /**
          * @brief Calculates the total size of multiple types in bytes.
          * @tparam A The type whose size is to be calculated.
