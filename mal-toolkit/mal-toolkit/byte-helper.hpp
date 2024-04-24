@@ -5,8 +5,6 @@
 #include <boost/version.hpp>
 #endif
 #ifdef BOOST_VERSION
-#include <boost/archive/binary_iarchive.hpp>
-#include <boost/archive/binary_oarchive.hpp>
 #include <boost/endian/conversion.hpp>
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/serialization.hpp>
@@ -360,6 +358,7 @@ namespace mal_toolkit
 #endif
     };
 
+#ifdef BOOST_VERSION
     /**
      * @brief Convert a ByteView to an integer value of the specified type.
      *
@@ -396,6 +395,7 @@ namespace mal_toolkit
         *byte_array.as<Integer>() = boost::endian::native_to_little(value);
         return byte_array;
     }
+#endif
 
     /**
      * @brief Convert a byte array to a uint16_t value using little-endian byte order.
